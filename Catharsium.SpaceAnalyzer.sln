@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.SpaceAnalyzer.UI.Console", "Catharsium.SpaceAnalyzer.UI.Console\Catharsium.SpaceAnalyzer.UI.Console.csproj", "{1EF65964-0EC1-4462-9E37-1F462327141F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.SpaceAnalyzer.UI.Console.Tests", "Catharsium.SpaceAnalyzer.UI.Console.Tests\Catharsium.SpaceAnalyzer.UI.Console.Tests.csproj", "{0648B54D-877D-4544-8671-C1C2EC74E460}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1EF65964-0EC1-4462-9E37-1F462327141F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EF65964-0EC1-4462-9E37-1F462327141F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EF65964-0EC1-4462-9E37-1F462327141F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0648B54D-877D-4544-8671-C1C2EC74E460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0648B54D-877D-4544-8671-C1C2EC74E460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0648B54D-877D-4544-8671-C1C2EC74E460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0648B54D-877D-4544-8671-C1C2EC74E460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
