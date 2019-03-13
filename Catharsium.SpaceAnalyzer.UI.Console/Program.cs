@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace SmooFooz.SpaceAnalyzer.Console
+namespace Catharsium.SpaceAnalyzer.Console
 {
     public class Program
     {
