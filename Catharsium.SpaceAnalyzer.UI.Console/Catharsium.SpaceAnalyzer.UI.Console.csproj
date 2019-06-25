@@ -7,4 +7,8 @@
     <Version>1.0.1</Version>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Catharsium.SpaceAnalyzer.Core\Catharsium.SpaceAnalyzer.Core.csproj" />
+  </ItemGroup>
+
 </Project>

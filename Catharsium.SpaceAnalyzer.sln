@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.SpaceAnalyzer.UI.Console", "Catharsium.SpaceAnalyzer.UI.Console\Catharsium.SpaceAnalyzer.UI.Console.csproj", "{1EF65964-0EC1-4462-9E37-1F462327141F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catharsium.SpaceAnalyzer.UI.Console", "Catharsium.SpaceAnalyzer.UI.Console\Catharsium.SpaceAnalyzer.UI.Console.csproj", "{1EF65964-0EC1-4462-9E37-1F462327141F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.SpaceAnalyzer.UI.Console.Tests", "Catharsium.SpaceAnalyzer.UI.Console.Tests\Catharsium.SpaceAnalyzer.UI.Console.Tests.csproj", "{0648B54D-877D-4544-8671-C1C2EC74E460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catharsium.SpaceAnalyzer.UI.Console.Tests", "Catharsium.SpaceAnalyzer.UI.Console.Tests\Catharsium.SpaceAnalyzer.UI.Console.Tests.csproj", "{0648B54D-877D-4544-8671-C1C2EC74E460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.SpaceAnalyzer.Core", "Catharsium.SpaceAnalyzer.Core\Catharsium.SpaceAnalyzer.Core.csproj", "{ADA7A6DB-254E-4711-A1B0-0DBC478A948C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.SpaceAnalyzer.Core.Tests", "Catharsium.SpaceAnalyzer.Core.Tests\Catharsium.SpaceAnalyzer.Core.Tests.csproj", "{AD693C7A-5A78-42EB-84A6-F9B7D2FC0C31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{0648B54D-877D-4544-8671-C1C2EC74E460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0648B54D-877D-4544-8671-C1C2EC74E460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0648B54D-877D-4544-8671-C1C2EC74E460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA7A6DB-254E-4711-A1B0-0DBC478A948C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA7A6DB-254E-4711-A1B0-0DBC478A948C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA7A6DB-254E-4711-A1B0-0DBC478A948C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA7A6DB-254E-4711-A1B0-0DBC478A948C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD693C7A-5A78-42EB-84A6-F9B7D2FC0C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD693C7A-5A78-42EB-84A6-F9B7D2FC0C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD693C7A-5A78-42EB-84A6-F9B7D2FC0C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD693C7A-5A78-42EB-84A6-F9B7D2FC0C31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
